@@ -43,6 +43,25 @@ public class Naive_AList {
     public int size() {
         return size;
     }
+        /* non-destructive method replicate(int[] arr) that replaces the
+ number at index i with arr[i] copies of itself. For example, replicate([3, 2,
+ 1]) would return [3, 3, 3, 2, 2, 1] */
+    
+ public static int[] replicate(int[] arr){
+    int total=0;
+    for (int items:arr){
+        total+=items;
+    }
+    int[] result= new int[total];
+    int i=0;
+    for(int items:arr){
+        for (int counter=0;counter<items;counter++){
+            result[i]=items;
+            i++;
+        }
+    }
+    return result;
+}
 
     /** Deletes item from back of the list and
      * returns deleted item. */

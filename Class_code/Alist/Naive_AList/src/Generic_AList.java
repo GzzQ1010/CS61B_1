@@ -49,6 +49,16 @@ public class Generic_AList<Type_> {
     return result;
     }
 
+    /* destructively reverses the items in arr. */
+    public void reverse(Type_[] arr){
+        for (int i=0;i<arr.length/2;i++){
+            int j=arr.length-i-1;
+            Type_ temp=arr[i];
+            arr[i]=arr[j];
+            arr[j]=temp;
+        }
+    }
+
     /** Deletes item from back of the list and
      * returns deleted item. */
     public Type_ removeLast() {
