@@ -1,0 +1,44 @@
+<component name="libraryTable">
+  <library name="CS61B_1">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/Class_code/IntList_wGet" />
+      <root url="file://$PROJECT_DIR$/Class_code/IntList_wSize" />
+      <root url="file://$PROJECT_DIR$/Class_code/Simple_IntList" />
+      <root url="file://$PROJECT_DIR$/HW/HW01" />
+      <root url="file://$PROJECT_DIR$/Java_basic" />
+      <root url="file://$PROJECT_DIR$/skeleton-sp18/ec1" />
+      <root url="file://$PROJECT_DIR$/skeleton-sp18/hw1" />
+      <root url="file://$PROJECT_DIR$/skeleton-sp18/hw2" />
+      <root url="file://$PROJECT_DIR$/skeleton-sp18/hw3" />
+      <root url="file://$PROJECT_DIR$/skeleton-sp18/hw4" />
+      <root url="file://$PROJECT_DIR$/skeleton-sp18/hw5" />
+      <root url="file://$PROJECT_DIR$/skeleton-sp18/hw6" />
+      <root url="file://$PROJECT_DIR$/skeleton-sp18/hw7" />
+      <root url="file://$PROJECT_DIR$/skeleton-sp18/lab1" />
+      <root url="file://$PROJECT_DIR$/skeleton-sp18/lab10" />
+      <root url="file://$PROJECT_DIR$/skeleton-sp18/lab11" />
+      <root url="file://$PROJECT_DIR$/skeleton-sp18/lab12" />
+      <root url="file://$PROJECT_DIR$/skeleton-sp18/lab13" />
+      <root url="file://$PROJECT_DIR$/skeleton-sp18/lab14" />
+      <root url="file://$PROJECT_DIR$/skeleton-sp18/lab15" />
+      <root url="file://$PROJECT_DIR$/skeleton-sp18/lab2/DebugPractice" />
+      <root url="file://$PROJECT_DIR$/skeleton-sp18/lab2/Intlist" />
+      <root url="file://$PROJECT_DIR$/skeleton-sp18/lab2setup" />
+      <root url="file://$PROJECT_DIR$/skeleton-sp18/lab3/Arithmetic" />
+      <root url="file://$PROJECT_DIR$/skeleton-sp18/lab3/Flik" />
+      <root url="file://$PROJECT_DIR$/skeleton-sp18/lab3/IntList" />
+      <root url="file://$PROJECT_DIR$/skeleton-sp18/lab9" />
+      <root url="file://$PROJECT_DIR$/skeleton-sp18/proj0" />
+      <root url="file://$PROJECT_DIR$/skeleton-sp18/proj1a" />
+      <root url="file://$PROJECT_DIR$/skeleton-sp18/proj1b" />
+      <root url="file://$PROJECT_DIR$/skeleton-sp18/proj1gold" />
+      <root url="file://$PROJECT_DIR$/skeleton-sp18/proj2" />
+      <root url="file://$PROJECT_DIR$/skeleton-sp18/proj3/src/main/java" />
+      <root url="file://$PROJECT_DIR$/skeleton-sp18/proj3/src/test/java" />
+    </SOURCES>
+  </library>
+</component>

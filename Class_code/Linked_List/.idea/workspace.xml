@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7b457050-8649-4ac7-baeb-710f891e5c16" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntList_wGet/IntList_wGet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntList_wGet/Nested_InNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntList_wSize/IntList_wSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntNode/IntNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IntNode/SLList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nested_class/Nested_IntNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Simple_IntList/ArkwardIntLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Simple_IntList/IntList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Discussion/disc01.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW/HW01/BreakDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW/HW01/ContinueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW/HW01/Draw_triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW/HW01/array_max.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_basic/Array/Alter_array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_basic/Array/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_basic/Staric_vs_Instance/non_s_dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_basic/Staric_vs_Instance/non_s_dogLauncher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_basic/Staric_vs_Instance/static_dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_basic/Staric_vs_Instance/static_dogLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_basic/java_01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_basic/java_test.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2WqjV8M2gSBYe03M6p2XpFo5zUH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/19089/OneDrive/Desktop/Computer Science/CS61B_1/skeleton-sp18/library-sp18/javalib",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b457050-8649-4ac7-baeb-710f891e5c16" name="Changes" comment="" />
+      <created>1697467024960</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697467024960</updated>
+    </task>
+    <servers />
+  </component>
+</project>
