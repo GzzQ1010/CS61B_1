@@ -1,5 +1,6 @@
-package Alist;
-public class Generic_AList<Type_> {
+import java.lang.reflect.Type;
+
+public class Generic_AList<Type_> implements List61B<Type_>{
     private int size;
     private Type_[] items;
     private int RFACTOR=2;// need to get a value
@@ -14,6 +15,7 @@ public class Generic_AList<Type_> {
     }
 
     /** Inserts X into the back of the list. */
+    @Override
     public void addLast(Type_ x) {
         if(size==items.length){
             resize(size*RFACTOR);
@@ -23,20 +25,24 @@ public class Generic_AList<Type_> {
     }
 
     /** Returns the item from the back of the list. */
+    @Override
     public Type_ getLast() {
         return items[size-1];
     }
     /** Gets the ith item in the list (0 is the front). */
+    @Override
     public Type_ get(int i) {
         return items[i];
     }
 
     /** Returns the number of items in the list. */
+    @Override
     public int size() {
         return size;
     }
 
     /* inserts item into array arr at the given position.  */
+    @Override
     public void insert( Type_ item, int position){
         Type_[] result= (Type_[])new Object[items.length+1];
 
@@ -48,12 +54,13 @@ public class Generic_AList<Type_> {
     }
 
     /*Add First */
+    @Override
     public void addFirst(Type_ x){
         insert(x, 0);
     }
 
     /*Get first */
-    public Type_ addFirst(){
+    public Type_ getFirst(){
         return get(0);
     }
 

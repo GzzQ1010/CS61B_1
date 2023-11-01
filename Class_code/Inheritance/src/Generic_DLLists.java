@@ -1,5 +1,4 @@
-package DLList;
-public class Generic_DLLists<Type> {
+public class Generic_DLLists<Type> implements List61B<Type> {
     private class StaffNode {
         public StaffNode previous;
          public Type item;
@@ -35,6 +34,7 @@ public class Generic_DLLists<Type> {
 
     /*operators*/
     //add first
+    @Override
     public void addFirst(Type x) {
         sentinel.next = new StaffNode(null, x, sentinel.next);
 //        sentinel.next.next = new StaffNode(sentinel.next, sentinel.next.next.item, sentinel.next.next.next);
@@ -46,6 +46,7 @@ public class Generic_DLLists<Type> {
         size+=1;
     }
     //add last
+    @Override
     public  void addLast(Type x){
         if(Last==null){
             sentinel.next=new StaffNode(null,x,null);
@@ -57,18 +58,24 @@ public class Generic_DLLists<Type> {
         size+=1;
     }
     //remove Last
-    public void removeLast(){
+    @Override
+    public Type removeLast(){
         if(Last==null){
             throw new IllegalCallerException("error no element in list");
         }else if(Last.previous==null){
+            Type temp=sentinel.next.item;
             sentinel.next=null;
             Last=null;
+            size-=1;
+            return temp;
         }
-        else{
-            Last.previous.next=null;
-            Last=Last.previous;
+        else {
+            Type temp = Last.item;
+            Last.previous.next = null;
+            Last = Last.previous;
+            size -= 1;
+            return temp;
         }
-        size-=1;
     }
     //remove first
     public void removeFirst(){
@@ -80,6 +87,7 @@ public class Generic_DLLists<Type> {
         }
     }
     //Insert x at position p
+    @Override
     public void insert(Type x, int p){
         if (p>this.size){
             throw new IllegalArgumentException("error! p is out of range");
@@ -112,13 +120,16 @@ public class Generic_DLLists<Type> {
     //     sentinel.next=frontOfReversed;
     // }
     //get First
+
     public Type getFirst(){
         return sentinel.next.item;
     }
+    @Override
     //get Last
     public Type getLast(){
         return Last.item;
     }
+    @Override
     public Type get(int i){
         if(i>size){
             throw new IllegalArgumentException("error! out of range");
@@ -140,6 +151,19 @@ public class Generic_DLLists<Type> {
         }
         return total;
     }
+    @Override
+    public  int size(){
+        return this.size;
+    }
+
+    /*Add a print method that overrides list61b's inefficient print method*/
+    @Override
+    public void print(){
+        for (StaffNode P=sentinel;P!=null;P=P.next){
+            System.out.print(P.item+ " ");
+        }
+    }
+
 
     public static void main(String[] args) {
         Generic_DLLists<String> L = new Generic_DLLists<>("x");

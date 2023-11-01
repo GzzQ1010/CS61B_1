@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public interface IntUnaryFunction {
+/**
+ * represents a function that takes in an integer, and return an integer
+ */
+public interface IntUnaryFunction {
+    int apply(int x);
 }

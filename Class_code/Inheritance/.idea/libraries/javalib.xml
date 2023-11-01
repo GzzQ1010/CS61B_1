@@ -6,6 +6,7 @@
     <JAVADOC />
     <SOURCES>
       <root url="file://$PROJECT_DIR$/../../skeleton-sp18/library-sp18/javalib" />
+      <root url="file://$PROJECT_DIR$/../Alist/Naive_AList/src" />
     </SOURCES>
     <jarDirectory url="file://$PROJECT_DIR$/../../skeleton-sp18/library-sp18/javalib" recursive="false" />
     <jarDirectory url="file://$PROJECT_DIR$/../../skeleton-sp18/library-sp18/javalib" recursive="false" type="SOURCES" />

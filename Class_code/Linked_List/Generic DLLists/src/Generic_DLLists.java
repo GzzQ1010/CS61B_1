@@ -1,3 +1,4 @@
+package DLList;
 public class Generic_DLLists<Type> {
     private class StaffNode {
         public StaffNode previous;
@@ -117,6 +118,17 @@ public class Generic_DLLists<Type> {
     //get Last
     public Type getLast(){
         return Last.item;
+    }
+    public Type get(int i){
+        if(i>size){
+            throw new IllegalArgumentException("error! out of range");
+        }
+        StaffNode P= sentinel.next;
+        while(i!=0){
+            P=P.next;
+            i--;
+        }
+        return P.item;
     }
     //ugly get size--make sure the list is correctly linked
     public int ugly_getSize(){
