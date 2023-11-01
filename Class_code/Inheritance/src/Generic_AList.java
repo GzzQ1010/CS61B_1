@@ -1,4 +1,4 @@
-
+package Alist;
 public class Generic_AList<Type_> {
     private int size;
     private Type_[] items;
