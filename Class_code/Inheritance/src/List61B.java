@@ -1,4 +1,5 @@
 /*Interface is a specification of what a List is able to do, not how to do it */
+
 public interface List61B<Type> {
 
     /** Inserts X into the back of the list. */
